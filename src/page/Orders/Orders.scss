@@ -29,5 +29,69 @@
         margin-left:21px;
         color: #707070;
         padding:21px;
+
+        &--active{
+            color: #1773B0;
+            background-color: #F5F5F5;
+            border-radius: 10px;
+        }
     }
+}
+
+.order{
+    &__card{
+        background-color: white;
+        margin-top: 21px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        padding: 21px;
+    }
+
+    &__confirmation{
+        display: flex;
+        height: 78px;
+        border-radius: 10px;
+        background-color: #F5F5F5;
+        align-items: center;
+        padding: 21px;
+        gap: 7px;
+    }
+    &__confirmation-icon{
+        padding-bottom: 19px;
+    }
+    &__image-wrapper{
+        margin-top: 21px;
+        display: flex;
+        justify-content: space-between;
+        gap: 8px;
+    }
+    &__image{
+        border: #F5F5F5 1px solid;
+        border-radius: 10px;
+        width: 50%;
+    }
+
+    &__info-wrap{
+        margin-top: 25px;
+        margin-bottom: 21px;
+    }
+    &__info-text-wrap{
+        margin-bottom: 25px;
+    }
+
+    &__info-text-b{
+        font-weight: 600;
+    }
+}
+.btn__review-order{
+    margin: 48px 0 12px 0;
+    display: flex;
+    font-weight: 600px;
+    color: white;
+    height: 52px;
+    text-decoration: none; 
+    background-color: #1773B0;
+    align-items: center;
+    justify-content: center;
 }
