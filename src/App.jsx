@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Orders from "/src/page/Orders/Orders.jsx"
 import Updated from "./page/Updated/Updated";
-import "./App.css";
+import "./App.scss";
 
 function App() {
   return (
