@@ -41,7 +41,7 @@ export default function Orders() {
             </div>
         </div>
             <p className="order__info-text-b">$203.98</p>
-        <Link to="/updated" className="btn__review-order">Review Order</Link>
+        <Link to="/edit" className="btn__review-order">Review Order</Link>
       </div>
     </div>
   );
