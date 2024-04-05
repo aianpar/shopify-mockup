@@ -1,5 +1,10 @@
+import { Link } from "react-router-dom"
+
 export default function Orders(){
     return (
-        <>Hello World</>
+        <>
+        <>Link to</>
+        <Link to="/updated">/updated</Link>
+        </>
     )
 };
