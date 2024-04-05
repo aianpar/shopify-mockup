@@ -1,0 +1,142 @@
+.order-page{
+    
+    &__container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 21px;
+    }
+
+    &__header-wrapper{
+        display: flex;
+        justify-content:flex-start;
+        padding-bottom: 37px;
+        padding-top: 37px;
+        gap: 0.5rem;
+        width: 80%;
+    }
+
+    &__header{
+        font-size: 24px;
+    }
+
+    &__tab{
+        display: flex;
+        align-items: center;
+        background-color: white;
+        border-radius: 10px;
+        height: 88PX;
+    }
+    &__tab-link{
+        margin-left:21px;
+        color: #707070;
+        padding:21px;
+
+        &--active{
+            color: #1773B0;
+            background-color: #F5F5F5;
+            border-radius: 10px;
+        }
+    }
+    &__detail{
+        color: #707070;
+        padding-top: 0.3rem;
+    }
+}
+
+.order{
+    &__card{
+        background-color: white;
+        margin-top: 21px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        padding: 21px;
+    }
+
+    &__confirmation{
+        display: flex;
+        height: 78px;
+        border-radius: 10px;
+        background-color: #F5F5F5;
+        align-items: center;
+        padding: 21px;
+        gap: 7px;
+    }
+    &__confirmation-icon{
+        padding-bottom: 19px;
+    }
+    &__image-wrapper{
+        margin-top: 21px;
+        display: flex;
+        justify-content: space-between;
+        gap: 8px;
+    }
+    &__image{
+        border: #F5F5F5 1px solid;
+        border-radius: 10px;
+        width: 50%;
+    }
+
+    &__info-wrap{
+        margin-top: 25px;
+        margin-bottom: 21px;
+    }
+    &__info-text-wrap{
+        margin-bottom: 25px;
+    }
+
+    &__info-text-order {
+        color: grey;
+    }
+
+    &__info-text-b{
+        font-weight: 600;
+    }
+}
+.btn__review-order{
+    margin: 48px 0 12px 0;
+    display: flex;
+    font-weight: 600px;
+    color: white;
+    height: 52px;
+    text-decoration: none; 
+    background-color: #1773B0;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.order-page__header--container{
+    display: flex;
+    flex-direction: column;
+}
+
+.order-product-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 12rem;
+    align-items: center;
+    padding: 0 0.5rem;
+}
+
+.product__order--container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    // width: 10rem;
+}
+
+.product__order-quantity--container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.product__order-price{
+    font-weight: 700;
+
+}
