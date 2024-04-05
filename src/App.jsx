@@ -13,6 +13,7 @@ function App() {
           <Route path="/manage"></Route>
           <Route path="/updated" element={<Updated/>}></Route>
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );
