@@ -1,0 +1,33 @@
+.order-page{
+    
+    &__container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 21px;
+    }
+
+    &__header-wrapper{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 37px;
+        padding-top: 37px;
+
+    }
+
+    &__header{
+        font-size: 24px;
+    }
+
+    &__tab{
+        display: flex;
+        align-items: center;
+        background-color: white;
+        border-radius: 10px;
+        height: 88PX;
+    }
+    &__tab-link{
+        margin-left:21px;
+        color: #707070;
+        padding:21px;
+    }
+}
