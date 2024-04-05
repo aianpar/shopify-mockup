@@ -8,10 +8,11 @@
 
     &__header-wrapper{
         display: flex;
-        justify-content: space-between;
+        justify-content:flex-start;
         padding-bottom: 37px;
         padding-top: 37px;
-
+        gap: 0.5rem;
+        width: 80%;
     }
 
     &__header{
@@ -35,6 +36,10 @@
             background-color: #F5F5F5;
             border-radius: 10px;
         }
+    }
+    &__detail{
+        color: #707070;
+        padding-top: 0.3rem;
     }
 }
 
@@ -99,4 +104,39 @@
     align-items: center;
     justify-content: center;
     border-radius: 5px;
+}
+
+.order-page__header--container{
+    display: flex;
+    flex-direction: column;
+}
+
+.order-product-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 12rem;
+    align-items: center;
+    padding: 0 0.5rem;
+}
+
+.product__order--container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    // width: 10rem;
+}
+
+.product__order-quantity--container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.product__order-price{
+    font-weight: 700;
+
 }
