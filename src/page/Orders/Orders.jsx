@@ -33,7 +33,7 @@ export default function Orders() {
         <div className="order__info-wrap">
             <div className="order__info-text-wrap">
                 <p className="order__info-text-b">2 items</p>
-                <p className="order__info-text">Order #1017</p>
+                <p className="order__info-text-order">Order #1017</p>
             </div>
             <div>
                 <p className="order__info-text" >Marvin Gaye</p>

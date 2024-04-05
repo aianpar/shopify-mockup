@@ -1,0 +1,21 @@
+
+.header {
+  display: flex;
+  width: 100%;
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 1rem;
+    align-items: center;
+    height: 4rem;
+    // gap: 1rem;
+  }
+
+  &__image-wrapper {
+    margin-top: 1rem;
+  }
+
+}
